@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Permite incluir el relleno y el borde en el ancho y alto total de un elemento. Aplicar esto aquí a todos los elementos es lo aconsejable. */
+    /* border: 2px solid rgb(199, 39, 132); */
+}
+
+body {
+    /* font-family: 'Open Sans'; */
+    font-family: 'calibri';
+    /* font-family: 'verdana'; */
+}
+
+.container-fluid{
+    /* border: 3px solid green; */
+    border-radius: 1em;
+}
+
+.row{
+    margin-top: 3px;
+    margin-bottom: 3px;
+    border: 1px solid sandybrown;
+    /* background-color: khaki; */
+    /* background-color: coral; */
+    /* background-color: aquamarine; */
+    /* background-color: beige; */
+    /* background-color: lightblue; */
+    background-color: navajowhite;
+    /* background-color: olive; */
+    /* background-color: olivedrab; */
+    /* background-color: papayawhip; */
+    /* background-color: pink; */
+    /* background-color: plum; */
+    /* background-color: sandybrown; */
+    /* background-color: silver; */
+    /* background-color: thistle; */
+    /* background-color: tan; */
+    /* background-color: turquoise; */
+    /* background-color: teal; */
+    /* background-color: yellowgreen; */
+    border-radius: 1em;
+}
+
+header {
+    border: 2px solid rgb(46, 6, 109);
+    background-image: url("../img/AgusLautiYo09_edit.jpg");
+    height: 250px;
+    background-size: cover;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    /* padding: 25px 10px; */
+    border-radius: 1em;
+}
+
+#encabezado{
+    /* border: 2px solid red; */
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.titulo{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* .i.fa.fa-pen::before{    
+    float: right; /*Con esto se ubica a la derecha de su contenedor.*/
+    /* display:block;
+} */
+
+nav a{
+    color: #696969;
+    margin: 0 30px;
+    padding: 5px 10px; /*Separa de los bordes del background-color el contenido de las etiquetas <a> al poner el mouse sobre ellas. */
+    border-radius: 50%; /*Borde redondeado para el fondo del contenido al poner el mouse sobre él. */
+    
+}
+
+nav a:hover{
+    background-color: #000; /*Fondo del contenido al pasar el mouse sobre él. */
+    color: #fff; /*Color del contenido al poner el mouse sobre él. */
+}
+
+.habilidadLogo{
+    padding: 3px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .rounded-circle{
+    position: relative;
+} */
